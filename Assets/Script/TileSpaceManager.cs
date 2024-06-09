@@ -9,6 +9,7 @@ public class TileSpaceManager : MonoBehaviour
 {
     public static TileSpaceManager instance;
     [SerializeField] private List<TileSpace> tileSpaces = new List<TileSpace>();
+    [SerializeField] private Dictionary<Transform, Transform> tileInSpace;
 
     private void Awake()
     {
