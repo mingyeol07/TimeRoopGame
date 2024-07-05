@@ -8,16 +8,9 @@ public class ActionManager : MonoBehaviour
 
     private List<ActionEvent> actionEvents = new List<ActionEvent>();
 
-    private bool isUserTurn;
-
     private void Awake()
     {
         Instance   = this;
-    }
-
-    private void Start()
-    {
-        isUserTurn = false;
     }
 
     public void AddActionEvents(ActionEvent action)
@@ -27,29 +20,33 @@ public class ActionManager : MonoBehaviour
 
     public void OnStart()
     {
-        isUserTurn = true;
-
-        StartCoroutine(Co_OnStart()); 
+        StartCoroutine(OnStartCoroutine()); 
     }
 
-    private IEnumerator Co_OnStart()
+    private IEnumerator OnStartCoroutine()
     {
-        Debug.Log("실행");
-
         for(int i = 0; i < actionEvents.Count; i++)
         {
             actionEvents[i].Initialize();
         }
 
+        int actionNumber = 0;
 
-        while( actionEvents != null )
+        while(true)
         {
-            actionEvents[0].InvokeEvent();
+            actionEvents[actionNumber].InvokeEvent();
 
-            yield return actionEvents[0].IsEnd();
+            yield return new WaitUntil(() => actionEvents[actionNumber].IsEnd());
 
-            actionEvents.RemoveAt(0);
+            actionNumber++;
 
+            if(actionNumber == actionEvents.Count)
+            {
+                actionEvents.Clear();
+                break;
+            }
+
+            yield return null;
         }
     }
 }

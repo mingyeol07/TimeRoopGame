@@ -25,8 +25,6 @@ public class RightMovement : ActionEvent
 
         direction = Vector3.right;
 
-        isEnd     = false;
-
         waitForSeconds = new WaitForSeconds(moveSpeed + 0.1f);
     }
 
@@ -37,6 +35,8 @@ public class RightMovement : ActionEvent
 
     private IEnumerator Co_InvokeEvent()
     {
+        isEnd             = false;
+        
         Vector3 targetVec = user.position + ( direction * tileSpacing );
         user.DOMove(targetVec, moveSpeed);
 

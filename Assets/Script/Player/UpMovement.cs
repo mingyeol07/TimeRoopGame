@@ -25,8 +25,6 @@ public class UpMovement : ActionEvent
 
         direction = Vector3.up;
 
-        isEnd     = false;
-
         waitForSeconds = new WaitForSeconds(moveSpeed + 0.1f);
     }
 
@@ -37,6 +35,8 @@ public class UpMovement : ActionEvent
 
     private IEnumerator Co_InvokeEvent()
     {
+        isEnd             = false;
+        
         Vector3 targetVec = user.position + ( direction * tileSpacing );
         user.DOMove(targetVec, moveSpeed);
 
