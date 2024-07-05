@@ -21,6 +21,8 @@ public class UpMovement : ActionEvent
 
     public override void Initialize()
     {
+        SetUser();
+
         direction = Vector3.up;
 
         isEnd     = false;
@@ -35,8 +37,8 @@ public class UpMovement : ActionEvent
 
     private IEnumerator Co_InvokeEvent()
     {
-        Vector3 targetVec = transform.position + direction;
-        transform.DOMove(targetVec, moveSpeed);
+        Vector3 targetVec = user.position + ( direction * tileSpacing );
+        user.DOMove(targetVec, moveSpeed);
 
         yield return waitForSeconds;
 
