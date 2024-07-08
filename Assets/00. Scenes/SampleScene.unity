@@ -1006,7 +1006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3443100252445907057, guid: 7f2c9cefbbcf1e041b747a4554798007, type: 3}
       propertyPath: moveSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8393593016121275069, guid: 7f2c9cefbbcf1e041b747a4554798007, type: 3}
       propertyPath: m_Name
@@ -1901,7 +1901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6784918017932619942, guid: d8ae7d2e03ed6594b8ced20f8a9bf24e, type: 3}
       propertyPath: moveSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7455036442147479305, guid: d8ae7d2e03ed6594b8ced20f8a9bf24e, type: 3}
       propertyPath: m_Name
@@ -2549,6 +2549,10 @@ PrefabInstance:
     - target: {fileID: 1622752960678758563, guid: 8db076443dbf7c948bc2d4eb27b256e8, type: 3}
       propertyPath: m_Name
       value: LeftMovementAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408714595154827015, guid: 8db076443dbf7c948bc2d4eb27b256e8, type: 3}
+      propertyPath: moveSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3797303100606065675, guid: 8db076443dbf7c948bc2d4eb27b256e8, type: 3}
       propertyPath: m_RootOrder
@@ -3698,6 +3702,10 @@ PrefabInstance:
     - target: {fileID: 7226273917590421537, guid: 6fed8c59e194b8742bdf126a7ad9e168, type: 3}
       propertyPath: m_Name
       value: RightMovementAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564539569941391726, guid: 6fed8c59e194b8742bdf126a7ad9e168, type: 3}
+      propertyPath: moveSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fed8c59e194b8742bdf126a7ad9e168, type: 3}
