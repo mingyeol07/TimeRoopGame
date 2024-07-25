@@ -7,7 +7,7 @@ public class GridMap : MonoBehaviour
     private const int GridMapWidth  = 6;        // 맵 가로 크기
     private const int GridMapLength = 4;        // 맵 세로 크기 
 
-    private Dictionary<Vector2Int, Tile> tileDictionary;
+    private Dictionary<Vector2, Tile> tileDictionary;
 
     private Tile[]    tiles;
 
@@ -20,7 +20,7 @@ public class GridMap : MonoBehaviour
     {
         tiles          = GetComponentsInChildren<Tile>();
 
-        tileDictionary = new Dictionary<Vector2Int, Tile>();
+        tileDictionary = new Dictionary<Vector2, Tile>();
 
         int index      = 0;
 
@@ -30,14 +30,14 @@ public class GridMap : MonoBehaviour
             {
                 tiles[index].SetCoord(x, y);
 
-                tileDictionary.Add(new Vector2Int(x, y), tiles[index]);
+                tileDictionary.Add(new Vector2(x, y), tiles[index]);
 
                 index ++;
             }
         }
     }
 
-    public bool IsDefaultTile(Vector2Int userCoord)
+    public bool IsDefaultTile(Vector2 userCoord)
     {
         if ( tileDictionary.ContainsKey(userCoord) && tileDictionary[userCoord].TileType == TileType.DefaultTile )
             return true;

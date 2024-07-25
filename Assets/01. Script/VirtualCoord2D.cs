@@ -8,8 +8,11 @@ using UnityEngine;
 public class VirtualCoord2D : MonoBehaviour
 {
     [SerializeField]
-    private Vector2Int virtualCoord2D = Vector2Int.zero;      // 플레이어의 가상 위치 ( 좌표 )
+    private Vector3 virtualCoord2D = Vector3.zero;      
 
-    // # 프로퍼티 읽기 전용
-    public Vector2Int VirtualCorrd2D => virtualCoord2D;
+    public Vector3 VirtualCorrd2D 
+    { 
+        get => virtualCoord2D; 
+        set {  virtualCoord2D = value; } 
+    }
 }

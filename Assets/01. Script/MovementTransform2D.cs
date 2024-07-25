@@ -8,9 +8,11 @@ using UnityEngine;
 public class MovementTransform2D : MonoBehaviour
 {
     [SerializeField]
-    private float    movementSpeed;  // ¿òÁ÷ÀÓ ¼Óµµ
+    private float           movementSpeed;  // ì›€ì§ìž„ ì†ë„
 
-    private Vector3  direction;      // ¿òÁ÷ÀÓ ¹æÇâ 
+    private Vector3         direction;      // ì›€ì§ì¼ ë°©í–¥ 
+    
+    public float MovementSpeed => movementSpeed;
 
     public void MoveTo(Vector3 direction)
     {
@@ -21,6 +23,6 @@ public class MovementTransform2D : MonoBehaviour
     {
         if (direction == Vector3.zero) return;
 
-        transform.position += direction * direction * Time.deltaTime;
+        transform.position += direction * movementSpeed * Time.deltaTime;
     }
 }

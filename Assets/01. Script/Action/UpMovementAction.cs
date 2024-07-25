@@ -5,7 +5,7 @@ using System.Collections.Generic;
 // # Unity
 using UnityEngine;
 
-public class LeftMovementAction : ActionEvent
+public class UpMovementAction : ActionEvent
 {
     private MovementTransform2D     movement;
     private VirtualCoord2D          virtualCoord;
@@ -22,12 +22,11 @@ public class LeftMovementAction : ActionEvent
     public override void Initialize()
     {
         user            = transform;
-
         movement        = user?.GetComponent<MovementTransform2D>();
         virtualCoord    = user?.GetComponent<VirtualCoord2D>();
         animator        = user?.GetComponent<Animator>();
 
-        directionVec = Vector3.left;
+        directionVec    = Vector3.up;
         isEnd           = false;
     }
 
@@ -45,6 +44,7 @@ public class LeftMovementAction : ActionEvent
         if (!GameManager.Instance.GridMap.IsDefaultTile(virtualCoord.VirtualCorrd2D + directionVec))
         {
             isEnd = true;
+
             Debug.Log("브레이크 실행");
              yield break;
         }
@@ -64,13 +64,13 @@ public class LeftMovementAction : ActionEvent
 
     private IEnumerator MoveInDirection()
     {
-        float targetPositionX = transform.position.x + (directionVec.x * Constants.distanceBetweenTile);
+        float targetPositionY = transform.position.y + (directionVec.y * Constants.distanceBetweenTile);
 
         while (true)
         {
-            if(transform.position.x <= targetPositionX)
+            if(transform.position.y >= targetPositionY)
             {
-                user.transform.position = new Vector3(targetPositionX, transform.position.y, transform.position.z);
+                user.transform.position = new Vector3(transform.position.x, targetPositionY, transform.position.z);
                 movement.MoveTo(Vector3.zero);
 
                 break;
