@@ -5,7 +5,7 @@ using System.Collections.Generic;
 // # Unity
 using UnityEngine;
 
-public class TileSpace : MonoBehaviour
+public class DeckManager : MonoBehaviour
 {
 
 }

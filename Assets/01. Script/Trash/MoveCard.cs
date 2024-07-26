@@ -6,7 +6,7 @@ using System.Collections.Generic;
 // # Unity
 using UnityEngine;
 
-public class MoveTile : MonoBehaviour
+public class MoveCard : MonoBehaviour
 {
     private bool isDrag;
     private Vector2 returnPosition;
@@ -42,7 +42,7 @@ public class MoveTile : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Vector2 nearPosition = TileSpaceManager.instance.GetNearTileSpace(transform.position);
+        Vector2 nearPosition = CardManager.instance.GetNearTileSpace(transform.position);
         if(Vector2.Distance(nearPosition, transform.position) < 0.5f) 
         {
             returnPosition = nearPosition;

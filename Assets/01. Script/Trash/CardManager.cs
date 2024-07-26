@@ -5,10 +5,10 @@ using System.Collections.Generic;
 // # Unity
 using UnityEngine;
 
-public class TileSpaceManager : MonoBehaviour
+public class CardManager : MonoBehaviour
 {
-    public static TileSpaceManager instance;
-    [SerializeField] private List<TileSpace> tileSpaces = new List<TileSpace>();
+    public static CardManager instance;
+    [SerializeField] private List<GameObject> tileSpaces = new List<GameObject>();
     [SerializeField] private Dictionary<Transform, Transform> tileInSpace;
 
     private void Awake()
