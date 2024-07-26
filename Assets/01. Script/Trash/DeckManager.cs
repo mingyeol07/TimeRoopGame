@@ -52,6 +52,10 @@ public class DeckManager : MonoBehaviour
         cardTransform.DOMoveX(endPosX, 1f);
     }
 
+    /// <summary>
+    /// 스테이지를 클리어하고 카드를 얻었을 때 호출하는 함수
+    /// </summary>
+    /// <param name="data"></param>
     public void AddCard(CardData data)
     {
         myDeckList.Add(data);
