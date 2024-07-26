@@ -42,11 +42,11 @@ public class MoveCard : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Vector2 nearPosition = CardManager.instance.GetNearTileSpace(transform.position);
-        if(Vector2.Distance(nearPosition, transform.position) < 0.5f) 
-        {
-            returnPosition = nearPosition;
-        }
+        //Vector2 nearPosition = CardManager.instance.GetNearTileSpace(transform.position);
+        //if(Vector2.Distance(nearPosition, transform.position) < 0.5f) 
+        //{
+        //    returnPosition = nearPosition;
+        //}
         isDrag = false;
     }
 }
