@@ -11,7 +11,7 @@ public class DownMovementAction : ActionEvent
     private VirtualCoord2D          virtualCoord;
     private Animator                animator;
 
-    private Vector3                 directionVec;
+    private Vector2                 directionVec;
     private bool                    isEnd;
 
     private void Start()
@@ -27,7 +27,7 @@ public class DownMovementAction : ActionEvent
         virtualCoord    = user?.GetComponent<VirtualCoord2D>();
         animator        = user?.GetComponent<Animator>();
 
-        directionVec    = Vector3.down;
+        directionVec    = Vector2.down;
         isEnd           = false;
     }
 

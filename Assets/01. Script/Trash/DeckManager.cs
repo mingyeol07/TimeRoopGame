@@ -11,53 +11,56 @@ using UnityEngine;
 /// </summary>
 public class DeckManager : MonoBehaviour
 {
-    [SerializeField] private List<Transform> handsTransform = new List<Transform>();
+    [SerializeField] private List<CardSlot> handSlotList = new List<CardSlot>();
+    [SerializeField] private List<CardSlot> cardSlotList = new List<CardSlot>();
+
+    [SerializeField] private List<CardData> myCardList;
+    private List<CardData> muUsedList = new();
+    private List<CardData> myHands = new();
 
     [SerializeField] private GameObject cardPrefab;
 
-    [SerializeField] private List<CardData> myDeckList;
-    private List<CardData> muUsedList;
-
-    private List<GameObject> myHands;
-
     private RectTransform deckTransform;
 
-    private void Awake()
-    {
-        deckTransform = GetComponent<RectTransform>();
-    }
+    //private void Awake()
+    //{
+    //    deckTransform = GetComponent<RectTransform>();
+    //}
 
-    private void Start()
-    {
-        DrawCard();
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Space))
+    //    {
+    //        StartCoroutine(DrawCard(handsTransform.Count));
+    //    }
+    //}
 
-    private void DrawCard()
-    {
-        int ranCard = Random.Range(0, myDeckList.Count);
+    //private IEnumerator DrawCard(int drawCount)
+    //{
+    //    for(int i = 0; i < drawCount; i++)
+    //    {
+    //        int ranCard = Random.Range(0, myDeckList.Count);
+    //        Vector2 endPos = handsTransform[myHands.Count].transform.position;
 
-        GameObject card = Instantiate(cardPrefab, deckTransform.position, Quaternion.identity);
-        card.GetComponent<Card>().Initialize(myDeckList[ranCard]);
+    //        GameObject card = Instantiate(cardPrefab, transform);
+    //        card.GetComponent<Card>().Initialize(myDeckList[ranCard], endPos);
 
-        muUsedList.Add(myDeckList[ranCard]);
-        myDeckList.RemoveAt(ranCard);
+    //        card.transform.DOMoveX(endPos.x, 1f);
 
-        CardMoveToHand(card.transform);
-    }
+    //        myHands.Add(myDeckList[ranCard]);
+    //        myDeckList.RemoveAt(ranCard);
 
-    private void CardMoveToHand(Transform cardTransform)
-    {
-        float endPosX = handsTransform[myHands.Count].position.x;
+    //        yield return new WaitForSeconds(0.05f);
+    //    }
+    //    yield return null;
+    //}
 
-        cardTransform.DOMoveX(endPosX, 1f);
-    }
-
-    /// <summary>
-    /// 스테이지를 클리어하고 카드를 얻었을 때 호출하는 함수
-    /// </summary>
-    /// <param name="data"></param>
-    public void AddCard(CardData data)
-    {
-        myDeckList.Add(data);
-    }
+    ///// <summary>
+    ///// 스테이지를 클리어하고 카드를 얻었을 때 호출하는 함수
+    ///// </summary>
+    ///// <param name="data"></param>
+    //public void AddCard(CardData data)
+    //{
+    //    myDeckList.Add(data);
+    //}
 }
