@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GridMap : MonoBehaviour
 {
-    private const int GridMapWidth  = 6;        // 맵 가로 크기
-    private const int GridMapLength = 4;        // 맵 세로 크기 
+    private const int GridMapWidth  = 16;        // 맵 가로 크기
+    private const int GridMapLength = 9;        // 맵 세로 크기 
 
     private Dictionary<Vector2, Tile> tileDictionary;
 

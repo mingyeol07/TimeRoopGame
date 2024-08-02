@@ -123,74 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &4654104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4654106}
-  - component: {fileID: 4654105}
-  m_Layer: 0
-  m_Name: GridMap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &4654105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4654104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 051b710ef7fc30e40b88e5a97627e60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &4654106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4654104}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1707954026}
-  - {fileID: 1271900018}
-  - {fileID: 1741375407}
-  - {fileID: 1077056178}
-  - {fileID: 472555948}
-  - {fileID: 1565496070}
-  - {fileID: 289854235}
-  - {fileID: 1159933164}
-  - {fileID: 969564201}
-  - {fileID: 1762776960}
-  - {fileID: 2126864020}
-  - {fileID: 1980453987}
-  - {fileID: 2069950133}
-  - {fileID: 2089128389}
-  - {fileID: 1370017138}
-  - {fileID: 1885253573}
-  - {fileID: 191992419}
-  - {fileID: 1051878999}
-  - {fileID: 1343584305}
-  - {fileID: 1486732648}
-  - {fileID: 907718811}
-  - {fileID: 279166594}
-  - {fileID: 141565451}
-  - {fileID: 922423885}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &14310416
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14310417}
   - component: {fileID: 14310418}
+  - component: {fileID: 14310419}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -275,6 +208,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &14310419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14310416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &22189420
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22189421}
   - component: {fileID: 22189422}
+  - component: {fileID: 22189423}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -359,6 +307,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &22189423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22189420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &27879548
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27879549}
   - component: {fileID: 27879550}
+  - component: {fileID: 27879551}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -443,6 +406,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &27879551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27879548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &32866768
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32866769}
   - component: {fileID: 32866770}
+  - component: {fileID: 32866771}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -527,6 +505,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &32866771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32866768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &34635293
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34635294}
   - component: {fileID: 34635295}
+  - component: {fileID: 34635296}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -611,6 +604,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &34635296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34635293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &45172389
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45172390}
   - component: {fileID: 45172391}
+  - component: {fileID: 45172392}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -695,6 +703,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &45172392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45172389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &70186105
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 70186106}
   - component: {fileID: 70186107}
+  - component: {fileID: 70186108}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -779,6 +802,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &70186108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70186105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &79174721
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 79174722}
   - component: {fileID: 79174723}
+  - component: {fileID: 79174724}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -863,6 +901,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &79174724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79174721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &84957991
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 84957992}
   - component: {fileID: 84957993}
+  - component: {fileID: 84957994}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -947,6 +1000,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &84957994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84957991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &88337409
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +1024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 88337410}
   - component: {fileID: 88337411}
+  - component: {fileID: 88337412}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -1031,6 +1099,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &88337412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88337409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &95026604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 95026605}
   - component: {fileID: 95026606}
+  - component: {fileID: 95026607}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -1115,6 +1198,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &95026607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95026604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &95424486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,12 +1289,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95424486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &106405442
 GameObject:
@@ -1209,6 +1306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106405443}
   - component: {fileID: 106405444}
+  - component: {fileID: 106405445}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -1283,6 +1381,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &106405445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106405442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &110349579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110349580}
   - component: {fileID: 110349581}
+  - component: {fileID: 110349582}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -1308,7 +1421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110349579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 3.5, z: 0}
+  m_LocalPosition: {x: -6, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1367,6 +1480,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &110349582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110349579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &117439030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117439031}
   - component: {fileID: 117439032}
+  - component: {fileID: 117439033}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -1451,6 +1579,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &117439033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117439030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &130070453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130070454}
   - component: {fileID: 130070455}
+  - component: {fileID: 130070456}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -1535,6 +1678,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &130070456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130070453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &137689419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,6 +1702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137689420}
   - component: {fileID: 137689421}
+  - component: {fileID: 137689422}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -1619,105 +1777,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &141565450
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 141565451}
-  - component: {fileID: 141565453}
-  - component: {fileID: 141565452}
-  m_Layer: 0
-  m_Name: DefaultTile_17
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &141565451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141565450}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &141565452
+--- !u!114 &137689422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141565450}
+  m_GameObject: {fileID: 137689419}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &141565453
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141565450}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &143798859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143798860}
   - component: {fileID: 143798861}
+  - component: {fileID: 143798862}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -1802,6 +1876,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &143798862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143798859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &150945897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 150945898}
   - component: {fileID: 150945899}
+  - component: {fileID: 150945900}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -1886,6 +1975,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &150945900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150945897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &176719075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +1999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176719076}
   - component: {fileID: 176719077}
+  - component: {fileID: 176719078}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -1970,6 +2074,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &176719078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176719075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &178366937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,6 +2098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178366938}
   - component: {fileID: 178366939}
+  - component: {fileID: 178366940}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -2054,6 +2173,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &178366940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178366937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &185047044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,6 +2244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186416241}
   - component: {fileID: 186416242}
+  - component: {fileID: 186416243}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -2185,105 +2319,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &191992418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 191992419}
-  - component: {fileID: 191992421}
-  - component: {fileID: 191992420}
-  m_Layer: 0
-  m_Name: DefaultTile_12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &191992419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191992418}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &191992420
+--- !u!114 &186416243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191992418}
+  m_GameObject: {fileID: 186416240}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &191992421
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191992418}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &194389590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2294,6 +2343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194389591}
   - component: {fileID: 194389592}
+  - component: {fileID: 194389593}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -2309,7 +2359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194389590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 3.5, z: 0}
+  m_LocalPosition: {x: 1.5, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2368,6 +2418,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &194389593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194389590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &199144134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,6 +2442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 199144135}
   - component: {fileID: 199144136}
+  - component: {fileID: 199144137}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -2452,6 +2517,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &199144137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199144134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &203171352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,6 +2541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203171353}
   - component: {fileID: 203171354}
+  - component: {fileID: 203171355}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -2477,7 +2557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203171352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.5, y: 3.5, z: 0}
+  m_LocalPosition: {x: -7.5, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2536,6 +2616,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &203171355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203171352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &207738357
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207738358}
   - component: {fileID: 207738359}
+  - component: {fileID: 207738360}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -2561,7 +2656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207738357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 3.5, z: 0}
+  m_LocalPosition: {x: -4.5, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2620,6 +2715,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &207738360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207738357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &240161882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240161883}
   - component: {fileID: 240161884}
+  - component: {fileID: 240161885}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -2645,7 +2755,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240161882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.75, y: 3.5, z: 0}
+  m_LocalPosition: {x: -6.75, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2704,6 +2814,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &240161885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240161882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &254163376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,6 +2838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 254163377}
   - component: {fileID: 254163378}
+  - component: {fileID: 254163379}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -2788,204 +2913,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &279166593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 279166594}
-  - component: {fileID: 279166596}
-  - component: {fileID: 279166595}
-  m_Layer: 0
-  m_Name: DefaultTile_16
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &279166594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279166593}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &279166595
+--- !u!114 &254163379
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279166593}
+  m_GameObject: {fileID: 254163376}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &279166596
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279166593}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &289854234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 289854235}
-  - component: {fileID: 289854237}
-  - component: {fileID: 289854236}
-  m_Layer: 0
-  m_Name: DefaultTile_03
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &289854235
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289854234}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &289854236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289854234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  coord2D: {x: 0, y: 1}
---- !u!212 &289854237
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289854234}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &301815766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,6 +2937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301815767}
   - component: {fileID: 301815768}
+  - component: {fileID: 301815769}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -3070,6 +3012,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &301815769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301815766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &345599171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345599172}
   - component: {fileID: 345599173}
+  - component: {fileID: 345599174}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -3154,6 +3111,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &345599174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345599171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &352406586
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,6 +3135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352406587}
   - component: {fileID: 352406588}
+  - component: {fileID: 352406589}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -3238,6 +3210,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &352406589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352406586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &393215771
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,6 +3234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393215772}
   - component: {fileID: 393215773}
+  - component: {fileID: 393215774}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -3322,6 +3309,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &393215774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393215771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &419817135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,6 +3333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419817136}
   - component: {fileID: 419817137}
+  - component: {fileID: 419817138}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -3406,6 +3408,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &419817138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419817135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &423503065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 423503066}
   - component: {fileID: 423503067}
+  - component: {fileID: 423503068}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -3490,6 +3507,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &423503068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423503065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &454709780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +3531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454709781}
   - component: {fileID: 454709782}
+  - component: {fileID: 454709783}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -3574,46 +3606,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &472555947
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 472555948}
-  - component: {fileID: 472555950}
-  - component: {fileID: 472555949}
-  m_Layer: 0
-  m_Name: WallTile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &472555948
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472555947}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &472555949
+--- !u!114 &454709783
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472555947}
+  m_GameObject: {fileID: 454709780}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
@@ -3621,58 +3620,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &472555950
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472555947}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &475652696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,6 +3630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475652697}
   - component: {fileID: 475652698}
+  - component: {fileID: 475652699}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -3757,6 +3705,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &475652699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475652696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &486872502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,6 +3729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 486872503}
   - component: {fileID: 486872504}
+  - component: {fileID: 486872505}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -3841,6 +3804,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &486872505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486872502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &495272532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,6 +3828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495272533}
   - component: {fileID: 495272534}
+  - component: {fileID: 495272535}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -3866,7 +3844,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495272532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 3.5, z: 0}
+  m_LocalPosition: {x: -0.75, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3925,6 +3903,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &495272535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495272532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &495628156
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,6 +3927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495628157}
   - component: {fileID: 495628158}
+  - component: {fileID: 495628159}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -4009,6 +4002,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &495628159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495628156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &500297489
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,6 +4026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500297490}
   - component: {fileID: 500297491}
+  - component: {fileID: 500297492}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -4093,6 +4101,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &500297492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500297489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &502188336
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,6 +4125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502188337}
   - component: {fileID: 502188338}
+  - component: {fileID: 502188339}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -4177,6 +4200,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &502188339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502188336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &511152548
 GameObject:
   m_ObjectHideFlags: 0
@@ -4187,6 +4224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511152549}
   - component: {fileID: 511152550}
+  - component: {fileID: 511152551}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -4202,7 +4240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511152548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 3.5, z: 0}
+  m_LocalPosition: {x: 3, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4261,6 +4299,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &511152551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511152548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &517384635
 GameObject:
   m_ObjectHideFlags: 0
@@ -4271,6 +4323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517384636}
   - component: {fileID: 517384637}
+  - component: {fileID: 517384638}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -4345,6 +4398,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &517384638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517384635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520932126}
   - component: {fileID: 520932127}
+  - component: {fileID: 520932128}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -4513,6 +4581,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &520932128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520932125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &558405260
 GameObject:
   m_ObjectHideFlags: 0
@@ -4523,6 +4605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 558405261}
   - component: {fileID: 558405262}
+  - component: {fileID: 558405263}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -4597,6 +4680,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &558405263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558405260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &594740691
 GameObject:
   m_ObjectHideFlags: 0
@@ -4607,6 +4704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594740692}
   - component: {fileID: 594740693}
+  - component: {fileID: 594740694}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -4681,6 +4779,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &594740694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594740691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &601248689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,6 +4803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601248690}
   - component: {fileID: 601248691}
+  - component: {fileID: 601248692}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -4765,6 +4878,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &601248692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601248689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &627184284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,6 +4902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627184285}
   - component: {fileID: 627184286}
+  - component: {fileID: 627184287}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -4849,6 +4977,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &627184287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627184284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &656110372
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,6 +5001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656110373}
   - component: {fileID: 656110374}
+  - component: {fileID: 656110375}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -4874,7 +5017,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656110372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 3.5, z: 0}
+  m_LocalPosition: {x: -1.5, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4933,6 +5076,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &656110375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656110372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &709504638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,6 +5100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709504639}
   - component: {fileID: 709504640}
+  - component: {fileID: 709504641}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -5017,6 +5175,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &709504641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709504638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &709754235
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,6 +5199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709754236}
   - component: {fileID: 709754237}
+  - component: {fileID: 709754238}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -5101,6 +5274,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &709754238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709754235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &724262332
 GameObject:
   m_ObjectHideFlags: 0
@@ -5158,6 +5345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731735793}
   - component: {fileID: 731735794}
+  - component: {fileID: 731735795}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -5232,6 +5420,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &731735795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731735792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &759066119
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,6 +5491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766245061}
   - component: {fileID: 766245062}
+  - component: {fileID: 766245063}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -5363,6 +5566,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &766245063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766245060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &776321442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5373,6 +5590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 776321443}
   - component: {fileID: 776321444}
+  - component: {fileID: 776321445}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -5447,6 +5665,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &776321445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776321442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &803446767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5504,6 +5736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 818342826}
   - component: {fileID: 818342827}
+  - component: {fileID: 818342828}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -5578,6 +5811,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &818342828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818342825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &819134094
 GameObject:
   m_ObjectHideFlags: 0
@@ -5588,6 +5835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819134095}
   - component: {fileID: 819134096}
+  - component: {fileID: 819134097}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -5662,6 +5910,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &819134097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819134094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &832433383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5672,6 +5934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832433384}
   - component: {fileID: 832433385}
+  - component: {fileID: 832433386}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -5746,6 +6009,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &832433386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832433383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &853437567
 GameObject:
   m_ObjectHideFlags: 0
@@ -5756,6 +6033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 853437568}
   - component: {fileID: 853437569}
+  - component: {fileID: 853437570}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -5830,6 +6108,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &853437570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853437567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &854018707
 GameObject:
   m_ObjectHideFlags: 0
@@ -5840,6 +6132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 854018708}
   - component: {fileID: 854018709}
+  - component: {fileID: 854018710}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -5914,6 +6207,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &854018710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854018707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &858740216
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +6231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858740217}
   - component: {fileID: 858740218}
+  - component: {fileID: 858740219}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -5998,6 +6306,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &858740219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858740216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &862099489
 GameObject:
   m_ObjectHideFlags: 0
@@ -6008,6 +6330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862099490}
   - component: {fileID: 862099491}
+  - component: {fileID: 862099492}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -6082,6 +6405,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &862099492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862099489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &876356150
 GameObject:
   m_ObjectHideFlags: 0
@@ -6092,6 +6429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 876356151}
   - component: {fileID: 876356152}
+  - component: {fileID: 876356153}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -6166,6 +6504,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &876356153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876356150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &883985109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6213,105 +6565,6 @@ Transform:
   m_Father: {fileID: 1665531169}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &907718810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 907718811}
-  - component: {fileID: 907718813}
-  - component: {fileID: 907718812}
-  m_Layer: 0
-  m_Name: DefaultTile_15
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &907718811
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907718810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &907718812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907718810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  coord2D: {x: 0, y: 0}
---- !u!212 &907718813
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907718810}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &908603715
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,6 +6575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 908603716}
   - component: {fileID: 908603717}
+  - component: {fileID: 908603718}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -6396,6 +6650,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &908603718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908603715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &918172666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6406,6 +6674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918172667}
   - component: {fileID: 918172668}
+  - component: {fileID: 918172669}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -6480,105 +6749,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &922423884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 922423885}
-  - component: {fileID: 922423887}
-  - component: {fileID: 922423886}
-  m_Layer: 0
-  m_Name: DefaultTile_18
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &922423885
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922423884}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &922423886
+--- !u!114 &918172669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922423884}
+  m_GameObject: {fileID: 918172666}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &922423887
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922423884}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &952764027
 GameObject:
   m_ObjectHideFlags: 0
@@ -6589,6 +6773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952764028}
   - component: {fileID: 952764029}
+  - component: {fileID: 952764030}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -6663,6 +6848,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &952764030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952764027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &954357307
 GameObject:
   m_ObjectHideFlags: 0
@@ -6673,6 +6872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 954357308}
   - component: {fileID: 954357309}
+  - component: {fileID: 954357310}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -6747,105 +6947,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &969564200
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 969564201}
-  - component: {fileID: 969564203}
-  - component: {fileID: 969564202}
-  m_Layer: 0
-  m_Name: DefaultTile_05
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &969564201
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969564200}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &969564202
+--- !u!114 &954357310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969564200}
+  m_GameObject: {fileID: 954357307}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &969564203
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969564200}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &976141561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6856,6 +6971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976141562}
   - component: {fileID: 976141563}
+  - component: {fileID: 976141564}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -6871,7 +6987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976141561}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.25, y: 3.5, z: 0}
+  m_LocalPosition: {x: -5.25, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6930,6 +7046,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &976141564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976141561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &984713473
 GameObject:
   m_ObjectHideFlags: 0
@@ -6940,6 +7070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984713474}
   - component: {fileID: 984713475}
+  - component: {fileID: 984713476}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -6955,7 +7086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984713473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.25, y: 3.5, z: 0}
+  m_LocalPosition: {x: -2.25, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7014,6 +7145,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &984713476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984713473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &988766861
 GameObject:
   m_ObjectHideFlags: 0
@@ -7024,6 +7169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988766862}
   - component: {fileID: 988766863}
+  - component: {fileID: 988766864}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -7098,6 +7244,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &988766864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988766861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &996765740
 GameObject:
   m_ObjectHideFlags: 0
@@ -7108,6 +7268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996765741}
   - component: {fileID: 996765742}
+  - component: {fileID: 996765743}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -7182,6 +7343,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &996765743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996765740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1010864468
 GameObject:
   m_ObjectHideFlags: 0
@@ -7192,6 +7367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010864469}
   - component: {fileID: 1010864470}
+  - component: {fileID: 1010864471}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -7266,6 +7442,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1010864471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010864468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1013319436
 GameObject:
   m_ObjectHideFlags: 0
@@ -7276,6 +7466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1013319437}
   - component: {fileID: 1013319438}
+  - component: {fileID: 1013319439}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -7350,6 +7541,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1013319439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013319436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1042627467
 GameObject:
   m_ObjectHideFlags: 0
@@ -7360,6 +7565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042627468}
   - component: {fileID: 1042627469}
+  - component: {fileID: 1042627470}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -7434,6 +7640,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1042627470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042627467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1050200993
 GameObject:
   m_ObjectHideFlags: 0
@@ -7444,6 +7664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1050200994}
   - component: {fileID: 1050200995}
+  - component: {fileID: 1050200996}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -7518,105 +7739,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1051878998
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1051878999}
-  - component: {fileID: 1051879001}
-  - component: {fileID: 1051879000}
-  m_Layer: 0
-  m_Name: DefaultTile_13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1051878999
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051878998}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1051879000
+--- !u!114 &1050200996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051878998}
+  m_GameObject: {fileID: 1050200993}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1051879001
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051878998}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1058527580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7627,6 +7763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058527581}
   - component: {fileID: 1058527582}
+  - component: {fileID: 1058527583}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -7701,6 +7838,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1058527583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058527580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1065151571
 GameObject:
   m_ObjectHideFlags: 0
@@ -7711,6 +7862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1065151572}
   - component: {fileID: 1065151573}
+  - component: {fileID: 1065151574}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -7785,6 +7937,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1065151574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065151571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1065727446
 GameObject:
   m_ObjectHideFlags: 0
@@ -7795,6 +7961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1065727447}
   - component: {fileID: 1065727448}
+  - component: {fileID: 1065727449}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -7869,46 +8036,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1077056177
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1077056178}
-  - component: {fileID: 1077056180}
-  - component: {fileID: 1077056179}
-  m_Layer: 0
-  m_Name: WallTile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1077056178
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077056177}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1077056179
+--- !u!114 &1065727449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077056177}
+  m_GameObject: {fileID: 1065727446}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
@@ -7916,58 +8050,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1077056180
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077056177}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1093139344
 GameObject:
   m_ObjectHideFlags: 0
@@ -8050,7 +8132,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1095850943
 GameObject:
@@ -8062,6 +8144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095850944}
   - component: {fileID: 1095850945}
+  - component: {fileID: 1095850946}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -8136,6 +8219,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1095850946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095850943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1112133853
 GameObject:
   m_ObjectHideFlags: 0
@@ -8146,6 +8243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112133854}
   - component: {fileID: 1112133855}
+  - component: {fileID: 1112133856}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -8220,6 +8318,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1112133856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112133853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1114879027
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,6 +8342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1114879028}
   - component: {fileID: 1114879029}
+  - component: {fileID: 1114879030}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -8304,6 +8417,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1114879030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114879027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1121714868
 GameObject:
   m_ObjectHideFlags: 0
@@ -8314,6 +8441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121714869}
   - component: {fileID: 1121714870}
+  - component: {fileID: 1121714871}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -8388,6 +8516,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1121714871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121714868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1134201366
 GameObject:
   m_ObjectHideFlags: 0
@@ -8412,7 +8554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134201366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -8445,6 +8587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135561367}
   - component: {fileID: 1135561368}
+  - component: {fileID: 1135561369}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -8519,6 +8662,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1135561369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135561366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1136406584
 GameObject:
   m_ObjectHideFlags: 0
@@ -8529,6 +8686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136406585}
   - component: {fileID: 1136406586}
+  - component: {fileID: 1136406587}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -8603,6 +8761,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1136406587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136406584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1139083049
 GameObject:
   m_ObjectHideFlags: 0
@@ -8613,6 +8785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1139083050}
   - component: {fileID: 1139083051}
+  - component: {fileID: 1139083052}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -8687,6 +8860,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1139083052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139083049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1144729999
 GameObject:
   m_ObjectHideFlags: 0
@@ -8697,6 +8884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144730000}
   - component: {fileID: 1144730001}
+  - component: {fileID: 1144730002}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -8712,7 +8900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144729999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 3.5, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8771,105 +8959,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1159933163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1159933164}
-  - component: {fileID: 1159933166}
-  - component: {fileID: 1159933165}
-  m_Layer: 0
-  m_Name: DefaultTile_04
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1159933164
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159933163}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.48, y: 1.52, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1159933165
+--- !u!114 &1144730002
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159933163}
+  m_GameObject: {fileID: 1144729999}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1159933166
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159933163}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1163153490
 GameObject:
   m_ObjectHideFlags: 0
@@ -8880,6 +8983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163153491}
   - component: {fileID: 1163153492}
+  - component: {fileID: 1163153493}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -8954,6 +9058,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1163153493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163153490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1166504656
 GameObject:
   m_ObjectHideFlags: 0
@@ -8964,6 +9082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166504657}
   - component: {fileID: 1166504658}
+  - component: {fileID: 1166504659}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -9038,6 +9157,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1166504659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166504656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1169680416
 GameObject:
   m_ObjectHideFlags: 0
@@ -9048,6 +9181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169680417}
   - component: {fileID: 1169680418}
+  - component: {fileID: 1169680419}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -9122,6 +9256,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1169680419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169680416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1203730368
 GameObject:
   m_ObjectHideFlags: 0
@@ -9132,6 +9280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203730369}
   - component: {fileID: 1203730370}
+  - component: {fileID: 1203730371}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -9147,7 +9296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203730368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 3.5, z: 0}
+  m_LocalPosition: {x: -3, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9206,6 +9355,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1203730371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203730368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1205799460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9216,6 +9379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205799461}
   - component: {fileID: 1205799462}
+  - component: {fileID: 1205799463}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -9290,6 +9454,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1205799463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205799460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1214091802
 GameObject:
   m_ObjectHideFlags: 0
@@ -9300,6 +9478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1214091803}
   - component: {fileID: 1214091804}
+  - component: {fileID: 1214091805}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -9374,6 +9553,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1214091805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214091802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1234278861
 GameObject:
   m_ObjectHideFlags: 0
@@ -9384,6 +9577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1234278862}
   - component: {fileID: 1234278863}
+  - component: {fileID: 1234278864}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -9458,6 +9652,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1234278864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234278861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1239384361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9515,6 +9723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1258331216}
   - component: {fileID: 1258331217}
+  - component: {fileID: 1258331218}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -9530,7 +9739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258331215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.75, y: 3.5, z: 0}
+  m_LocalPosition: {x: 3.75, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9589,105 +9798,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1271900017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1271900018}
-  - component: {fileID: 1271900020}
-  - component: {fileID: 1271900019}
-  m_Layer: 0
-  m_Name: DefaultTile_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1271900018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271900017}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1271900019
+--- !u!114 &1258331218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271900017}
+  m_GameObject: {fileID: 1258331215}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1271900020
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271900017}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1288727616
 GameObject:
   m_ObjectHideFlags: 0
@@ -9698,6 +9822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1288727617}
   - component: {fileID: 1288727618}
+  - component: {fileID: 1288727619}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -9772,6 +9897,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1288727619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288727616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1289314024
 GameObject:
   m_ObjectHideFlags: 0
@@ -9782,6 +9921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1289314025}
   - component: {fileID: 1289314026}
+  - component: {fileID: 1289314027}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -9856,6 +9996,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1289314027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289314024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1301316535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9866,6 +10020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301316536}
   - component: {fileID: 1301316537}
+  - component: {fileID: 1301316538}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -9940,6 +10095,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1301316538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301316535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1301906959
 GameObject:
   m_ObjectHideFlags: 0
@@ -9950,6 +10119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301906960}
   - component: {fileID: 1301906961}
+  - component: {fileID: 1301906962}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -10024,6 +10194,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1301906962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301906959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1313336771
 GameObject:
   m_ObjectHideFlags: 0
@@ -10034,6 +10218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1313336772}
   - component: {fileID: 1313336773}
+  - component: {fileID: 1313336774}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -10108,6 +10293,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1313336774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313336771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1340702134
 GameObject:
   m_ObjectHideFlags: 0
@@ -10132,7 +10331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1340702135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10193,12 +10392,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340702134}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -6.88, y: 3.28, z: 0}
+  m_LocalPosition: {x: -6.75, y: 2.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1340702137
 MonoBehaviour:
@@ -10322,6 +10521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341725055}
   - component: {fileID: 1341725056}
+  - component: {fileID: 1341725057}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -10396,105 +10596,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1343584304
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1343584305}
-  - component: {fileID: 1343584307}
-  - component: {fileID: 1343584306}
-  m_Layer: 0
-  m_Name: DefaultTile_14
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1343584305
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343584304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1343584306
+--- !u!114 &1341725057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343584304}
+  m_GameObject: {fileID: 1341725054}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1343584307
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343584304}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1359040906
 GameObject:
   m_ObjectHideFlags: 0
@@ -10505,6 +10620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359040907}
   - component: {fileID: 1359040908}
+  - component: {fileID: 1359040909}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -10579,6 +10695,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1359040909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359040906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1363859285
 GameObject:
   m_ObjectHideFlags: 0
@@ -10608,7 +10738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf349f36678f32141befd530c97cc908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridMap: {fileID: 4654105}
+  gridMap: {fileID: 0}
 --- !u!4 &1363859287
 Transform:
   m_ObjectHideFlags: 0
@@ -10622,107 +10752,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1370017137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1370017138}
-  - component: {fileID: 1370017140}
-  - component: {fileID: 1370017139}
-  m_Layer: 0
-  m_Name: DefaultTile_10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1370017138
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370017137}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1370017139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370017137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  coord2D: {x: 0, y: 0}
---- !u!212 &1370017140
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370017137}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1415718041
 GameObject:
   m_ObjectHideFlags: 0
@@ -10733,6 +10764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415718042}
   - component: {fileID: 1415718043}
+  - component: {fileID: 1415718044}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -10807,6 +10839,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1415718044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415718041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1425941486
 GameObject:
   m_ObjectHideFlags: 0
@@ -10817,6 +10863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425941487}
   - component: {fileID: 1425941488}
+  - component: {fileID: 1425941489}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -10891,6 +10938,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1425941489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425941486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1466485588
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,6 +10962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466485589}
   - component: {fileID: 1466485590}
+  - component: {fileID: 1466485591}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -10975,6 +11037,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1466485591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466485588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1467615526
 GameObject:
   m_ObjectHideFlags: 0
@@ -10985,6 +11061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467615527}
   - component: {fileID: 1467615528}
+  - component: {fileID: 1467615529}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -11059,46 +11136,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1486732647
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1486732648}
-  - component: {fileID: 1486732650}
-  - component: {fileID: 1486732649}
-  m_Layer: 0
-  m_Name: WallTile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1486732648
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486732647}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: -1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1486732649
+--- !u!114 &1467615529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486732647}
+  m_GameObject: {fileID: 1467615526}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
@@ -11106,58 +11150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1486732650
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486732647}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1495886862
 GameObject:
   m_ObjectHideFlags: 0
@@ -11168,6 +11160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495886863}
   - component: {fileID: 1495886864}
+  - component: {fileID: 1495886865}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -11242,6 +11235,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1495886865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495886862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1528041780
 GameObject:
   m_ObjectHideFlags: 0
@@ -11252,6 +11259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528041781}
   - component: {fileID: 1528041782}
+  - component: {fileID: 1528041783}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -11267,7 +11275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528041780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.25, y: 3.5, z: 0}
+  m_LocalPosition: {x: 2.25, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11326,6 +11334,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1528041783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528041780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1534721275
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,6 +11358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1534721276}
   - component: {fileID: 1534721277}
+  - component: {fileID: 1534721278}
   m_Layer: 0
   m_Name: Square_15
   m_TagString: Untagged
@@ -11410,6 +11433,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1534721278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534721275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1546669386
 GameObject:
   m_ObjectHideFlags: 0
@@ -11420,6 +11457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1546669387}
   - component: {fileID: 1546669388}
+  - component: {fileID: 1546669389}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -11494,6 +11532,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1546669389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546669386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1546888648
 GameObject:
   m_ObjectHideFlags: 0
@@ -11504,6 +11556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1546888649}
   - component: {fileID: 1546888650}
+  - component: {fileID: 1546888651}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -11578,6 +11631,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1546888651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546888648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1556922500
 GameObject:
   m_ObjectHideFlags: 0
@@ -11588,6 +11655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556922501}
   - component: {fileID: 1556922502}
+  - component: {fileID: 1556922503}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -11662,105 +11730,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1565496069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1565496070}
-  - component: {fileID: 1565496072}
-  - component: {fileID: 1565496071}
-  m_Layer: 0
-  m_Name: DefaultTile_02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1565496070
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565496069}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1565496071
+--- !u!114 &1556922503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565496069}
+  m_GameObject: {fileID: 1556922500}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1565496072
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565496069}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1590061310
 GameObject:
   m_ObjectHideFlags: 0
@@ -11771,6 +11754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590061311}
   - component: {fileID: 1590061312}
+  - component: {fileID: 1590061313}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -11845,6 +11829,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1590061313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590061310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1598426668
 GameObject:
   m_ObjectHideFlags: 0
@@ -11855,6 +11853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598426669}
   - component: {fileID: 1598426670}
+  - component: {fileID: 1598426671}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -11929,6 +11928,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1598426671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598426668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1644115381
 GameObject:
   m_ObjectHideFlags: 0
@@ -11939,6 +11952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644115382}
   - component: {fileID: 1644115383}
+  - component: {fileID: 1644115384}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -12013,6 +12027,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1644115384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644115381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1664235830
 GameObject:
   m_ObjectHideFlags: 0
@@ -12023,6 +12051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664235831}
   - component: {fileID: 1664235832}
+  - component: {fileID: 1664235833}
   m_Layer: 0
   m_Name: Square_09
   m_TagString: Untagged
@@ -12097,6 +12126,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1664235833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664235830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1665531168
 GameObject:
   m_ObjectHideFlags: 0
@@ -12106,6 +12149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1665531169}
+  - component: {fileID: 1665531170}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -12135,8 +12179,20 @@ Transform:
   - {fileID: 883985110}
   - {fileID: 759066120}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665531170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665531168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051b710ef7fc30e40b88e5a97627e60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1690391093
 GameObject:
   m_ObjectHideFlags: 0
@@ -12147,6 +12203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690391094}
   - component: {fileID: 1690391095}
+  - component: {fileID: 1690391096}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -12221,6 +12278,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1690391096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690391093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1694465409
 GameObject:
   m_ObjectHideFlags: 0
@@ -12231,6 +12302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1694465410}
   - component: {fileID: 1694465411}
+  - component: {fileID: 1694465412}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -12305,104 +12377,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1707954025
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1707954026}
-  - component: {fileID: 1707954027}
-  - component: {fileID: 1707954028}
-  m_Layer: 0
-  m_Name: DefaultTile_00
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1707954026
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707954025}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1707954027
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707954025}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!114 &1707954028
+--- !u!114 &1694465412
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707954025}
+  m_GameObject: {fileID: 1694465409}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
 --- !u!1 &1717789213
 GameObject:
@@ -12414,6 +12401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1717789214}
   - component: {fileID: 1717789215}
+  - component: {fileID: 1717789216}
   m_Layer: 0
   m_Name: Square_10
   m_TagString: Untagged
@@ -12429,7 +12417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717789213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -12488,46 +12476,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1741375406
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1741375407}
-  - component: {fileID: 1741375409}
-  - component: {fileID: 1741375408}
-  m_Layer: 0
-  m_Name: WallTile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1741375407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741375406}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1741375408
+--- !u!114 &1717789216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741375406}
+  m_GameObject: {fileID: 1717789213}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
@@ -12535,58 +12490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1741375409
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741375406}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1749777326
 GameObject:
   m_ObjectHideFlags: 0
@@ -12597,6 +12500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749777327}
   - component: {fileID: 1749777328}
+  - component: {fileID: 1749777329}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -12671,6 +12575,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1749777329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749777326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1750935993
 GameObject:
   m_ObjectHideFlags: 0
@@ -12718,105 +12636,6 @@ Transform:
   m_Father: {fileID: 1665531169}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1762776959
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1762776960}
-  - component: {fileID: 1762776962}
-  - component: {fileID: 1762776961}
-  m_Layer: 0
-  m_Name: DefaultTile_06
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1762776960
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762776959}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1762776961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762776959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileType: 1
-  coord2D: {x: 0, y: 0}
---- !u!212 &1762776962
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762776959}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1784686806
 GameObject:
   m_ObjectHideFlags: 0
@@ -12827,6 +12646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1784686807}
   - component: {fileID: 1784686808}
+  - component: {fileID: 1784686809}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -12901,6 +12721,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1784686809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784686806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1788131764
 GameObject:
   m_ObjectHideFlags: 0
@@ -12911,6 +12745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1788131765}
   - component: {fileID: 1788131766}
+  - component: {fileID: 1788131767}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -12985,6 +12820,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1788131767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788131764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1816486191
 GameObject:
   m_ObjectHideFlags: 0
@@ -12995,6 +12844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1816486192}
   - component: {fileID: 1816486193}
+  - component: {fileID: 1816486194}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -13069,6 +12919,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1816486194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816486191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1850994013
 GameObject:
   m_ObjectHideFlags: 0
@@ -13079,6 +12943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850994014}
   - component: {fileID: 1850994015}
+  - component: {fileID: 1850994016}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -13153,6 +13018,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1850994016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850994013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1858369313
 GameObject:
   m_ObjectHideFlags: 0
@@ -13163,6 +13042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1858369314}
   - component: {fileID: 1858369315}
+  - component: {fileID: 1858369316}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -13237,6 +13117,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1858369316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858369313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1867405284
 GameObject:
   m_ObjectHideFlags: 0
@@ -13247,6 +13141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867405285}
   - component: {fileID: 1867405286}
+  - component: {fileID: 1867405287}
   m_Layer: 0
   m_Name: Square_03
   m_TagString: Untagged
@@ -13321,6 +13216,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1867405287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867405284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1867992749
 GameObject:
   m_ObjectHideFlags: 0
@@ -13331,6 +13240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867992750}
   - component: {fileID: 1867992751}
+  - component: {fileID: 1867992752}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -13405,6 +13315,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1867992752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867992749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1881082497
 GameObject:
   m_ObjectHideFlags: 0
@@ -13415,6 +13339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881082498}
   - component: {fileID: 1881082499}
+  - component: {fileID: 1881082500}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -13430,7 +13355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881082497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.75, y: 3.5, z: 0}
+  m_LocalPosition: {x: -3.75, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13489,105 +13414,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1885253572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1885253573}
-  - component: {fileID: 1885253575}
-  - component: {fileID: 1885253574}
-  m_Layer: 0
-  m_Name: DefaultTile_11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1885253573
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885253572}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1885253574
+--- !u!114 &1881082500
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885253572}
+  m_GameObject: {fileID: 1881082497}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1885253575
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885253572}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1888963118
 GameObject:
   m_ObjectHideFlags: 0
@@ -13598,6 +13438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888963119}
   - component: {fileID: 1888963120}
+  - component: {fileID: 1888963121}
   m_Layer: 0
   m_Name: Square_08
   m_TagString: Untagged
@@ -13672,6 +13513,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1888963121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888963118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1909095802
 GameObject:
   m_ObjectHideFlags: 0
@@ -13682,6 +13537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1909095803}
   - component: {fileID: 1909095804}
+  - component: {fileID: 1909095805}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -13756,6 +13612,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1909095805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909095802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1910390635
 GameObject:
   m_ObjectHideFlags: 0
@@ -13766,6 +13636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1910390636}
   - component: {fileID: 1910390637}
+  - component: {fileID: 1910390638}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -13840,6 +13711,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1910390638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910390635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1915419067
 GameObject:
   m_ObjectHideFlags: 0
@@ -13850,6 +13735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915419068}
   - component: {fileID: 1915419069}
+  - component: {fileID: 1915419070}
   m_Layer: 0
   m_Name: Square_01
   m_TagString: Untagged
@@ -13924,6 +13810,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1915419070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915419067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1920422600
 GameObject:
   m_ObjectHideFlags: 0
@@ -13934,6 +13834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920422601}
   - component: {fileID: 1920422602}
+  - component: {fileID: 1920422603}
   m_Layer: 0
   m_Name: Square_13
   m_TagString: Untagged
@@ -14008,6 +13909,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1920422603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920422600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1933213697
 GameObject:
   m_ObjectHideFlags: 0
@@ -14018,6 +13933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1933213698}
   - component: {fileID: 1933213699}
+  - component: {fileID: 1933213700}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -14092,6 +14008,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1933213700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933213697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1933294809
 GameObject:
   m_ObjectHideFlags: 0
@@ -14102,6 +14032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1933294810}
   - component: {fileID: 1933294811}
+  - component: {fileID: 1933294812}
   m_Layer: 0
   m_Name: Square_06
   m_TagString: Untagged
@@ -14176,6 +14107,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1933294812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933294809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1942503165
 GameObject:
   m_ObjectHideFlags: 0
@@ -14186,6 +14131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942503166}
   - component: {fileID: 1942503167}
+  - component: {fileID: 1942503168}
   m_Layer: 0
   m_Name: Square_14
   m_TagString: Untagged
@@ -14260,6 +14206,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1942503168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942503165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1970504188
 GameObject:
   m_ObjectHideFlags: 0
@@ -14270,6 +14230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970504189}
   - component: {fileID: 1970504190}
+  - component: {fileID: 1970504191}
   m_Layer: 0
   m_Name: Square_04
   m_TagString: Untagged
@@ -14344,6 +14305,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1970504191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970504188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &1977689185
 GameObject:
   m_ObjectHideFlags: 0
@@ -14354,6 +14329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977689186}
   - component: {fileID: 1977689187}
+  - component: {fileID: 1977689188}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -14428,105 +14404,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1980453986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1980453987}
-  - component: {fileID: 1980453989}
-  - component: {fileID: 1980453988}
-  m_Layer: 0
-  m_Name: DefaultTile_08
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1980453987
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980453986}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1980453988
+--- !u!114 &1977689188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980453986}
+  m_GameObject: {fileID: 1977689185}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &1980453989
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980453986}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1984323533
 GameObject:
   m_ObjectHideFlags: 0
@@ -14537,6 +14428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984323534}
   - component: {fileID: 1984323535}
+  - component: {fileID: 1984323536}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -14611,6 +14503,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1984323536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984323533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2000148145
 GameObject:
   m_ObjectHideFlags: 0
@@ -14621,6 +14527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000148146}
   - component: {fileID: 2000148147}
+  - component: {fileID: 2000148148}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -14695,6 +14602,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2000148148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000148145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2003261205
 GameObject:
   m_ObjectHideFlags: 0
@@ -14705,6 +14626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2003261206}
   - component: {fileID: 2003261207}
+  - component: {fileID: 2003261208}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -14779,6 +14701,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2003261208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003261205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2024083198
 GameObject:
   m_ObjectHideFlags: 0
@@ -14836,6 +14772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030720781}
   - component: {fileID: 2030720782}
+  - component: {fileID: 2030720783}
   m_Layer: 0
   m_Name: Square_07
   m_TagString: Untagged
@@ -14910,6 +14847,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2030720783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030720780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2041604399
 GameObject:
   m_ObjectHideFlags: 0
@@ -14920,6 +14871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041604400}
   - component: {fileID: 2041604401}
+  - component: {fileID: 2041604402}
   m_Layer: 0
   m_Name: Square_05
   m_TagString: Untagged
@@ -14994,6 +14946,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2041604402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041604399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2047973304
 GameObject:
   m_ObjectHideFlags: 0
@@ -15004,6 +14970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2047973305}
   - component: {fileID: 2047973306}
+  - component: {fileID: 2047973307}
   m_Layer: 0
   m_Name: Square_02
   m_TagString: Untagged
@@ -15078,6 +15045,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2047973307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047973304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  coord2D: {x: 0, y: 0}
 --- !u!1 &2067099794
 GameObject:
   m_ObjectHideFlags: 0
@@ -15088,6 +15069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067099795}
   - component: {fileID: 2067099796}
+  - component: {fileID: 2067099797}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -15162,105 +15144,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2069950132
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2069950133}
-  - component: {fileID: 2069950135}
-  - component: {fileID: 2069950134}
-  m_Layer: 0
-  m_Name: DefaultTile_09
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2069950133
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069950132}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2069950134
+--- !u!114 &2067099797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069950132}
+  m_GameObject: {fileID: 2067099794}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &2069950135
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069950132}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2076176051
 GameObject:
   m_ObjectHideFlags: 0
@@ -15271,6 +15168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2076176052}
   - component: {fileID: 2076176053}
+  - component: {fileID: 2076176054}
   m_Layer: 0
   m_Name: Square_12
   m_TagString: Untagged
@@ -15345,46 +15243,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2089128388
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2089128389}
-  - component: {fileID: 2089128391}
-  - component: {fileID: 2089128390}
-  m_Layer: 0
-  m_Name: WallTile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2089128389
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089128388}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2089128390
+--- !u!114 &2076176054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089128388}
+  m_GameObject: {fileID: 2076176051}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
@@ -15392,58 +15257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &2089128391
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089128388}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2094565230
 GameObject:
   m_ObjectHideFlags: 0
@@ -15454,6 +15267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094565231}
   - component: {fileID: 2094565232}
+  - component: {fileID: 2094565233}
   m_Layer: 0
   m_Name: Square_11
   m_TagString: Untagged
@@ -15528,102 +15342,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2126864019
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2126864020}
-  - component: {fileID: 2126864022}
-  - component: {fileID: 2126864021}
-  m_Layer: 0
-  m_Name: DefaultTile_07
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2126864020
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126864019}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4654106}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2126864021
+--- !u!114 &2094565233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126864019}
+  m_GameObject: {fileID: 2094565230}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae2d90d8cd20ff849a639511d0283e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileType: 1
+  tileType: 0
   coord2D: {x: 0, y: 0}
---- !u!212 &2126864022
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126864019}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
