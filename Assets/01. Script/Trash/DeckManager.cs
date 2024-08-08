@@ -12,7 +12,7 @@ using UnityEngine;
 public class DeckManager : MonoBehaviour
 {
     [SerializeField] private List<CardSlot> handSlotList = new List<CardSlot>();
-    [SerializeField] private List<CardSlot> cardSlotList = new List<CardSlot>();
+    [SerializeField] private List<CardSlot> playSlotList = new List<CardSlot>();
 
     [SerializeField] private List<CardData> myCardList;
     private List<CardData> muUsedList = new();

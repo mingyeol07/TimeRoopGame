@@ -10,8 +10,8 @@ public class CardData : ScriptableObject
     private Sprite cardSprite;
     public Sprite CardSprite { get { return cardSprite; } }
     [SerializeField]
-    private GameObject actionPrefab;
-    public GameObject ActionPrefab { get { return actionPrefab; } }
+    private ActionEvent action;
+    public ActionEvent Action { get { return action; } }
     [SerializeField]
     private string info;
     public string Info { get { return info; } }
